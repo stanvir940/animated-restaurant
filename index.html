@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Two Good</title>
+
     <link
       rel="shortcut icon"
       href="https://pbs.twimg.com/profile_images/1499265096006000640/ZhEnSTch_400x400.jpg"
@@ -132,6 +133,9 @@
         <div id="video-container">
           <div id="play">PLAY</div>
           <video autoplay loop muted src="intro.mp4"></video>
+        </div>
+        <div class="second-page-heading">
+          <h1>Best Selling Products</h1>
         </div>
       </div>
 
@@ -272,7 +276,137 @@
         </div>
       </div>
 
-      <div id="page4"></div>
+      <!-- this page was actually design after the page 5 -->
+      <div id="page5">
+        <img src="1.png" alt="" />
+      </div>
+
+      <div id="page4">
+        <div class="element-page4">
+          <div class="element1-p4">
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/74494a8887791.560e69eda2f70.JPG"
+              alt=""
+            />
+            <div class="e1-2">
+              <h1>Our Address</h1>
+              <div>
+                <p>The Bistro Garden</p>
+                <p>1234 Sunset Avenue</p>
+                <p>Los Angeles, CA 90028</p>
+                <p>United States</p>
+              </div>
+            </div>
+          </div>
+          <div class="element2-p4">
+            <h1 style="margin-top: 4vh">Contact Us</h1>
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Your Name"
+              style="
+                margin-top: 1vh;
+                width: 100%;
+                background: #d9d9d9;
+                padding: 5px;
+                border-radius: 5px;
+                color: white;
+                border: none;
+                border-color: transparent;
+              "
+            />
+            <input
+              type="email"
+              class="input-field"
+              placeholder="Your Email"
+              style="
+                margin-top: 1vh;
+                width: 100%;
+                background: #d9d9d9;
+                padding: 5px;
+                border-radius: 5px;
+                color: white;
+                border: none;
+                border-color: transparent;
+              "
+            />
+            <textarea
+              name="text"
+              class="input-field"
+              type="textarea"
+              placeholder="Message"
+              style="
+                margin-top: 1vh;
+                width: 100%;
+                background: #d9d9d9;
+                padding: 5px;
+                border-radius: 5px;
+                color: white;
+                border: none;
+                border-color: transparent;
+              "
+            ></textarea>
+            <button
+              id="btn-submit"
+              style="
+                margin-top: 1vh;
+                width: 100%;
+                background: #00b795;
+                padding: 5px;
+                border-radius: 5px;
+                color: white;
+                border: none;
+                border-color: transparent;
+                height: 6vh;
+              "
+            >
+              SUBMIT
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <!-- Site footer -->
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-column">
+              <h3>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                vehicula augue in bibendum luctus.
+              </p>
+            </div>
+            <div class="footer-column">
+              <h3>Links</h3>
+              <div
+                id="a12"
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: row;
+                  text-decoration: none;
+                  color: white;
+                "
+              >
+                <h5 style="padding: 1px; font-weight: lighter">Home</h5>
+                <h5 style="padding: 1px; font-weight: lighter">Services</h5>
+                <h5 style="padding: 1px; font-weight: lighter">Contact</h5>
+                <h5 style="padding: 1px; font-weight: lighter">Blog</h5>
+              </div>
+            </div>
+            <div class="footer-column">
+              <h3>Contact</h3>
+              <p>Email: contact@example.com</p>
+              <p>Phone: +123-456-7890</p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
@@ -290,6 +424,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
     <script src="script.js"></script>
   </body>
 </html>
