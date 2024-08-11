@@ -460,7 +460,6 @@ body {
     line-height: 8vh;
     letter-spacing: -3px;
     text-transform: uppercase;
-    color: #d27e0a;
   }
 
   .element-page4 {
@@ -470,6 +469,15 @@ body {
     justify-content: center;
     width: 100%;
     height: 100%;
+  }
+
+  .element1-p4 {
+    width: 90%;
+    padding: 2vh 2vw;
+  }
+
+  .element2-p4 {
+    width: 90%;
   }
 
   #video-container {
