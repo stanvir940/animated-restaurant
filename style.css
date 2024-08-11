@@ -262,10 +262,14 @@ body {
 
 #headings {
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 3vw;
   color: #fde74c;
   border: 2px solid black;
   background-color: #c3423f;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #child img {
@@ -447,13 +451,6 @@ body {
     justify-content: center;
     gap: 40px;
   }
-  /* 
-  #page1 {
-    width: 100%;
-    min-height: 70vh;
-    padding: 0 2vw;
-    padding-top: 25vh;
-  } */
 
   #page1 h1 {
     font-size: 13vw;
